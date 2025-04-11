@@ -27,7 +27,7 @@ The system:
   ```python
   plate_pattern = re.compile(r'^[A-Z0-9]{7}$')
 
-  ⚙️ Tech Stack
+ ## ⚙️ Tech Stack
 Frontend: HTML5, CSS3 (Jinja Templates)
 
 Backend: Flask (Python)
@@ -38,7 +38,7 @@ Video Processing: Contour detection, Canny edge detection
 
 File Handling: Secure upload and processing of video files
 
-🛠️ Installation
+## 🛠️ Installation
 bash
 Copy
 Edit
@@ -65,7 +65,7 @@ source env/bin/activate  # or `env\Scripts\activate` on Windows
 python app.py
 Then open your browser and visit: http://127.0.0.1:5000/
 
-📁 Project Structure
+## 📁 Project Structure
 php
 Copy
 Edit
@@ -76,7 +76,7 @@ Edit
 ├── images/                # Screenshots or assets
 ├── requirements.txt       # Python dependencies
 └── README.md              # This file
-🧪 Usage
+## 🧪 Usage
 Upload a video file via the homepage. (Sample videos available in the uploads/ folder.)
 
 The system detects valid number plates and displays the most frequently occurring one.
